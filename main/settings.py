@@ -25,8 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY =  'django-insecure-+vh9e9lm7gvjg)l$m2s$abxa2zm&77pyz4fmyhthvey^8it&a0'
 
 CSRF_TRUSTED_ORIGINS = ["https://django-netflix-clone-api.herokuapp.com"]
-# STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY')
-# STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
+STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
