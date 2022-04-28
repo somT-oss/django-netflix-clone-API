@@ -29,7 +29,7 @@ CSRF_TRUSTED_ORIGINS = ["https://django-netflix-clone-api.herokuapp.com"]
 # STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['django-netflix-clone-api.herokuapp.com']
 
